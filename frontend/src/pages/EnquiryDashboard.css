@@ -1,0 +1,42 @@
+.page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.enquiry-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.enquiry-table th,
+.enquiry-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.enquiry-table th {
+  background-color: #f0f0f0;
+}
+
+.enquiry-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #ff7875;
+}
